@@ -1,0 +1,104 @@
+:root {
+    --dark: #00516F;
+    --teal: #449EB6;
+    --lightBlue: #7DCDCA;
+    --blueGreen: #13A7B3;
+    --orange: #F58B1D;
+    --red: #EE5A2C;
+}
+
+body {
+    background-color: ghostwhite;
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+}
+
+#body-container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.margin-0 {
+    margin: 0%;
+}
+
+header h1, h2 {
+    color: var(--dark);
+    margin: auto;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+.nav-link {
+    text-decoration: none;
+    text-align: center;
+    width: 15%;
+    margin: 1%;
+    border: 2px solid;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#nav-link-Home {
+    border-color: var(--teal);
+    color: var(--teal);
+}
+
+#nav-link-AboutMe {
+    border-color: var(--lightBlue);
+    color: var(--lightBlue);
+}
+
+#nav-link-WorkExperience {
+    border-color: var(--blueGreen);
+    color: var(--blueGreen);
+}
+
+#nav-link-TechnicalSkills {
+    border-color: var(--orange);
+    color: var(--orange);
+}
+
+#nav-link-Projects {
+    border-color: var(--red);
+    color: var(--red);
+}
+
+footer p {
+    color: var(--dark);
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .nav-link {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .nav-link {
+        font-size: 1.25vw;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .nav-link {
+        font-size: 1vw;
+    }
+}
