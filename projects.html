@@ -6,8 +6,10 @@
     <title>Projects</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/projects.css">
+    <script src="javascript/projects.js"></script>
+
 </head>
-<body>
+<body onload="showDefault()">
 <div id="body-container" class="full-width full-height margin-0">
     <header>
         <h1>Curtis Smith</h1>
@@ -21,7 +23,52 @@
         <a id="nav-link-Projects" class="nav-link" href="projects.html">Projects</a>
     </nav>
     <main id="main-container" class="full-width">
+        <div id="projects-div">
+            <div id="projectsContainer-div">
+                <button id="project1" class="projectButton" onclick="showProject1()">
+                    <h4>Hello World!</h4>
+                    <h5>Technology Stack: HTML5, CSS, Javascript, AWS</h5>
 
+                </button>
+                <button id="project2" class="projectButton" onclick="showProject2()">
+                    <h4>More Projects Coming Soon</h4>
+                </button>
+            </div>
+            <div id="projectsDetails-div">
+                <div id="project1Details" class="projectDetails">
+                    <h5>Hello World!</h5>
+                    <h6>My Interactive Resume</h6>
+                    <p>
+                        For this project, I decided to go with pure HTML5, CSS, and Javascript with Amazon Web Services
+                        (AWS) to host the static pages. I wanted to keep this project as simple as possible to demonstrate
+                        my understanding of web design basics. I realize that there are several tools out there that
+                        stream line the process but I feel that one must understand the underlying principles that the
+                        tools stream line in order to make the most out of them.
+                    </p>
+                    <p>
+                        Source Code:
+                        <span>
+                            <a href="https://github.com/CurtisBretSmith/portfolio">
+                                portfolio
+                            </a>
+                        </span>
+                    </p>
+
+                </div>
+                <div id="project2Details" class="projectDetails">
+                    <p>
+                        I have a few more projects that I am working on and will publish soon.
+                    </p>
+                    <p>Upcoming projects:</p>
+                    <ul>
+                        <li>A family financial budgeting API.</li>
+                        <li>A web application that will interface with the budgeting API</li>
+                        <li>A desktop application that will interface with the budgeting API</li>
+                        <li>A mobile application that will interface with the budgeting API</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p>Contact information:</p>

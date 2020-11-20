@@ -1,0 +1,95 @@
+#main-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects-div {
+    border: 5px solid var(--red);
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 1%;
+    padding: 1%;
+}
+
+#projectsContainer-div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+.projectButton {
+    border: 5px solid;
+    border-radius: 5px;
+    transition-duration: .25s;
+    outline: none;
+    width: 95%;
+    margin: 1%;
+}
+
+.projectButton:hover {
+    border-width: 10px;
+}
+
+#project1 {
+    border-color: var(--lightBlue);
+    background-color: transparent;
+}
+
+#project2 {
+    border-color: var(--orange);
+    background-color: transparent;
+}
+
+#projectsDetails-div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+.projectDetails {
+    border: 5px solid;
+    border-radius: 5px;
+    width: 95%;
+    padding: 1%;
+}
+
+#project1Details {
+    display: none;
+    border-color: var(--lightBlue);
+}
+
+#project2Details {
+    display: none;
+    border-color: var(--orange);
+}
+
+@media screen and (min-width: 800px) {
+    #projects-div {
+        flex-flow: row nowrap;
+        width: 85%;
+    }
+
+    #projectsContainer-div {
+        width: 45%;
+    }
+
+    #projectsDetails-div {
+        display: block;
+        width: 45%;
+    }
+
+    .projectDetails {
+        width: 100%;
+        padding: 1%;
+    }
+}

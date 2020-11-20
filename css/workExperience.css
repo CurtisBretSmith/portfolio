@@ -40,30 +40,18 @@
 
 #job1 {
     border-color: var(--lightBlue);
+    background-color: transparent;
 }
-
-/*#job1:focus {*/
-/*    background-color: var(--lightBlue);*/
-/*    color: white;*/
-/*}*/
 
 #job2 {
     border-color: var(--orange);
+    background-color: transparent;
 }
-
-/*#job2:focus {*/
-/*    background-color: var(--orange);*/
-/*    color: white;*/
-/*}*/
 
 #job3 {
     border-color: var(--red);
+    background-color: transparent;
 }
-
-/*#job3:focus {*/
-/*    background-color: var(--red);*/
-/*    color: white;*/
-/*}*/
 
 #jobsDetails-div {
     display: flex;
