@@ -6,8 +6,9 @@
     <title>Work Experience</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/workExperience.css">
+    <script src="javascript/workExperience.js"></script>
 </head>
-<body>
+<body onload="showDefault()">
 <div id="body-container" class="full-width full-height margin-0">
     <header>
         <h1>Curtis Smith</h1>
@@ -21,11 +22,97 @@
         <a id="nav-link-Projects" class="nav-link" href="projects.html">Projects</a>
     </nav>
     <main id="main-container" class="full-width">
-
+        <div id="workExperience-div">
+            <div id="jobsContainer-div">
+                <button id="job1" class="jobButton" onclick="showJob1()">
+                    <h4>Hewlett Packard Enterprise</h4>
+                    <h5>vLabs Engineer Intern</h5>
+                </button>
+                <button id="job2" class="jobButton" onclick="showJob2()">
+                    <h4>InfoPro Corporation</h4>
+                    <h5>Unexploded Ordnance Technician II</h5>
+                </button>
+                <button id="job3" class="jobButton" onclick="showJob3()">
+                    <h4>United States Army</h4>
+                    <h5>Explosive Ordnance Disposal Technician</h5>
+                </button>
+            </div>
+            <div id="jobsDetails-div">
+                <div id="job1Details" class="jobDetails">
+                    <p class="jobDate">
+                        June 2019-Oct 2020
+                    </p>
+                    <p>
+                        My internship at Hewlett Packard Enterprise was an amazing learning experience. I received hands
+                        on experience with industry leading hardware and software. This experience taught me how to
+                        install, configure, and troubleshoot network switches, servers, and storage systems. In addition
+                        to the day to day data center operations, I was also allowed to assist the instructors with
+                        content delivery and design software tools ranging from simple Microsoft Visio scripts to full
+                        blown web applications.
+                    </p>
+                    <p>Summary of Accomplishments:</p>
+                    <ul>
+                        <li>Developed a change management web application for tracking changes using Laravel's
+                            framework</li>
+                        <li>Setup and configured an Instructor Demonstration rack for HPE's Primera Storage Solution</li>
+                        <li>Learned about ProLiant, Simplivity, 3Par, Primera, Nimble, VMWare, and VEEAM systems</li>
+                        <li>Supported and maintained cloud learning environments using tools such as VMWare</li>
+                    </ul>
+                </div>
+                <div id="job2Details" class="jobDetails">
+                    <p class="jobDate">
+                        Sept 2009-March 2018
+                    </p>
+                    <p>
+                        My internship at Hewlett Packard Enterprise was an amazing learning experience. I received hands
+                        on experience with industry leading hardware and software. This experience taught me how to
+                        install, configure, and troubleshoot network switches, servers, and storage systems. In addition
+                        to the day to day data center operations, I was also allowed to assist the instructors with
+                        content delivery and design software tools ranging from simple Microsoft Visio scripts to full
+                        blown web applications.
+                    </p>
+                    <p>Summary of Accomplishments:</p>
+                    <ul>
+                        <li>Delivered over 200 classes in identification and procedures for grenades, rockets,
+                            projectiles, and landmines</li>
+                        <li>Taught Explosive Ordnance Disposal troops from over 12 different nations</li>
+                        <li>Developed and maintained curriculum for classroom, practical, and testing areas</li>
+                        <li>Supported testing of next generation weapons for Air Force Research Laboratories</li>
+                        <li>Advised researchers on testing methodologies and data acquisition for explosive article
+                            testing</li>
+                        <li>Maintained a Class B CDL with HAZMAT endorsement and specialized in shipping requirements
+                            and transporting explosive articles</li>
+                    </ul>
+                </div>
+                <div id="job3Details" class="jobDetails">
+                    <p class="jobDate">
+                        Oct 2004-Sept 2009
+                    </p>
+                    <p>
+                        My internship at Hewlett Packard Enterprise was an amazing learning experience. I received hands
+                        on experience with industry leading hardware and software. This experience taught me how to
+                        install, configure, and troubleshoot network switches, servers, and storage systems. In addition
+                        to the day to day data center operations, I was also allowed to assist the instructors with
+                        content delivery and design software tools ranging from simple Microsoft Visio scripts to full
+                        blown web applications.
+                    </p>
+                    <p>Summary of Accomplishments:</p>
+                    <ul>
+                        <li>Honorable discharged at the grade/rank of E-5/SGT</li>
+                        <li>1 Combat deployment to Iraq (2007-2008)</li>
+                        <li>Maintained Top Secret Security Clearance</li>
+                        <li>Support over 50 Secret Service mission protect U.S. and foreign dignitaries including the
+                            President of the United States</li>
+                        <li>Conducted over 75 state side missions supporting range operations, law enforcement agencies,
+                            and bomb squads</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p>Contact information:</p>
-        <p>(256)698-6703</p>
+        <p>(256) 698-6703</p>
         <p><a href="mailto:curtis.bret.smith@hotmail.com">curtis.bret.smith@hotmail.com</a></p>
     </footer>
 </div>
