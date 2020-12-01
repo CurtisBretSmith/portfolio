@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b4e229-abd8-4c0f-b914-211126b5ecd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javascript/projects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Optimized-business.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/workExperience.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/workExperience.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutMe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/aboutMe.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aboutMe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/workExperience.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/workExperience.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +60,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PORT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Curti\Desktop\portfolio\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Curti\Desktop\portfolio" />
       <recent name="C:\Users\Curti\Desktop\portfolio\images" />
@@ -110,7 +115,7 @@
       <workItem from="1605110666435" duration="15051000" />
       <workItem from="1605196683307" duration="12418000" />
       <workItem from="1605285312447" duration="1451000" />
-      <workItem from="1605540796059" duration="34863000" />
+      <workItem from="1605540796059" duration="44244000" />
     </task>
     <servers />
   </component>

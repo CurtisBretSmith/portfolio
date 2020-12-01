@@ -1,4 +1,4 @@
-let activeJob;
+let activeJob = 1;
 
 function showDefault() {
     activeJob = 1;
