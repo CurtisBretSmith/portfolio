@@ -1,0 +1,228 @@
+#main-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#technicalSkills-div {
+    border: 5px solid var(--orange);
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.skillsCategory-div {
+    width: 275px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillsCategory-div h5 {
+    font-size: 3vw;
+}
+
+.skill-div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-div h6 {
+    font-size: 2.5vw;
+    margin: 0;
+}
+
+.dot-colored{
+    height: 2.5vw;
+    width: 2.5vw;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot {
+    height: 2.5vw;
+    width: 2.5vw;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#cat1 {
+    border-color: var(--dark);
+}
+
+#cat1 h5 {
+    color: var(--dark);
+}
+
+#cat1 .dot-colored {
+    background-color: var(--dark);
+}
+
+#cat2 {
+    border-color: var(--lightBlue);
+}
+
+#cat2 h5 {
+    color: var(--lightBlue);
+}
+
+#cat2 .dot-colored {
+    background-color: var(--lightBlue);
+}
+
+#cat3 {
+    border-color: var(--teal);
+}
+
+#cat3 h5 {
+    color: var(--teal);
+}
+
+#cat3 .dot-colored {
+    background-color: var(--teal);
+}
+
+#cat4 {
+    border-color: var(--red);
+}
+
+#cat4 h5 {
+    color: var(--red);
+}
+
+#cat4 .dot-colored {
+    background-color: var(--red);
+}
+
+#cat5 {
+    border-color: var(--dark);
+}
+
+#cat5 h5 {
+    color: var(--dark);
+}
+
+#cat5 .dot-colored {
+    background-color: var(--dark);
+}
+
+#cat6 {
+    border-color: var(--lightBlue);
+}
+
+#cat6 h5 {
+    color: var(--lightBlue);
+}
+
+#cat6 .dot-colored {
+    background-color: var(--lightBlue);
+}
+
+@media screen and (min-width: 800px) {
+    .skillsCategory-div {
+        width: 300px;
+    }
+
+    .skillsCategory-div h5 {
+        font-size: 1.75vw;
+    }
+
+    .skill-div h6 {
+        font-size: 1.5vw;
+    }
+
+    .dot-colored{
+        height: 1.5vw;
+        width: 1.5vw;
+    }
+
+    .dot {
+        height: 1.5vw;
+        width: 1.5vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .skillsCategory-div {
+        width: 600px;
+    }
+
+    .skillsCategory-div h5 {
+        font-size: 1.5vw;
+    }
+
+    .skill-div h6 {
+        font-size: 1.25vw;
+    }
+
+    .dot-colored{
+        height: 1.25vw;
+        width: 1.25vw;
+    }
+
+    .dot {
+        height: 1.25vw;
+        width: 1.25vw;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .skillsCategory-div {
+        width: 700px;
+    }
+
+    .skillsCategory-div h5 {
+        font-size: 1.25vw;
+    }
+
+    .skill-div h6 {
+        font-size: 1vw;
+    }
+
+    .dot-colored{
+        height: 1vw;
+        width: 1vw;
+    }
+
+    .dot {
+        height: 1vw;
+        width: 1vw;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .skillsCategory-div {
+        width: 800px;
+    }
+
+    .skillsCategory-div h5 {
+        font-size: 1vw;
+    }
+
+    .skill-div h6 {
+        font-size: .75vw;
+    }
+
+    .dot-colored{
+        height: .75vw;
+        width: .75vw;
+    }
+
+    .dot {
+        height: .75vw;
+        width: .75vw;
+    }
+}
