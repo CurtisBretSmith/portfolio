@@ -1,3 +1,7 @@
+#nav-link-WorkExperience {
+    border-width: 4px;
+}
+
 #main-container {
     display: flex;
     flex-flow: column wrap;
